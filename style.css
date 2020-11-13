@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  text-align: justify;
+}
+
+h1, h2 {
+  letter-spacing: 1px;
+  color: #e6739f;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+p {
+  color: #16a596;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+}
+
+.banner {
+  background-image: url("https://images.unsplash.com/photo-1562076275-3ebb66b79a0a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60https://images.unsplash.com/photo-1562076275-3ebb66b79a0a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60/1000x500");
+  background-size: cover;
+  background-position: center;
+  padding: 150px;
+  text-align: left;
+  text-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.banner h1 {
+  font-size: 32px;
+  color: white;
+}
+
+.banner p {
+  font-size: 24px;
+  color: white;
+  font-family: "Lobster Two";
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+.link-medium {
+  background-image: linear-gradient(to bottom, rgba(121, 215, 15, 1), rgba(121, 215, 15, 1));
+  color: #ffd31d;
+  font-family: "Lobster Two";
+  font-weight: 700;
+  font-size: 25px;
+  text-decoration: none;
+}
+.link-medium:hover {
+  background-image: linear-gradient(to bottom, rgba(211, 38, 38, 1), rgba(211, 38, 38, 1));}
+}
+
+@media (max-width: 1200px) {
+  .responsiveness {
+    width: 1025px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .responsiveness {
+    width: 769px;
+  }
+}
+
+@media (max-width: 768px) {
+  .responsiveness {
+    width: 481px;
+  }
+}
+
+@media (max-width: 480px) {
+  .responsiveness {
+    width: 320px;
+  }
+}
